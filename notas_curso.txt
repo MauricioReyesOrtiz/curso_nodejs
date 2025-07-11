@@ -25,3 +25,9 @@ https://nodejs.org/dist/latest-v10.x/docs/api/
 -exportando objetos:
 //exportando el objeto Math
 module.exports = Math;
+
+----------------------
+
+-modulos de node.js:
+.fyle_system: permite trabajar con los archivos del SO.
+
