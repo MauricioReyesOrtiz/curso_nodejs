@@ -1,0 +1,17 @@
+CURSO NODE.JS
+
+
+
+-llamar a un archivo .js:
+const math = require('./math.js');
+
+-exportar funciones
+function add(x1, x2){
+    //code
+}
+exports.add = add;
+
+
+--llamar a esa funcion:
+console.log(math.add(1, 2));
+
