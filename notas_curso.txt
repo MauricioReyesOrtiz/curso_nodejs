@@ -5,7 +5,7 @@ CURSO NODE.JS
 -llamar a un archivo .js:
 const math = require('./math.js');
 
--exportar funciones
+-exportar propiedades, en este caso una funcion
 function add(x1, x2){
     //code
 }
@@ -15,3 +15,13 @@ exports.add = add;
 --llamar a esa funcion:
 console.log(math.add(1, 2));
 
+------------------
+
+-documentacion de node.js:
+https://nodejs.org/dist/latest-v10.x/docs/api/
+
+------------------------
+
+-exportando objetos:
+//exportando el objeto Math
+module.exports = Math;
