@@ -31,3 +31,20 @@ module.exports = Math;
 -modulos de node.js:
 .fyle_system: permite trabajar con los archivos del SO.
 
+---------------------------
+
+-modulo 'fs' y 'fs/promises':
+.modulo de nodejs para administrar el sistema de archivos
+
+---------------------------
+
+-funcion writeFile:
+.3 parametros:
+1er.nombre del archivo a crear
+2do.string a grabar en el archivo
+3er.es una funcion anonima, parametro de error por si lo hubiera
+
+-funcion readFile:
+.2 parametros:
+1er.nombre del archivo a leer
+2do.es funcion anonima, parametros de error y objeto con los datos del archivo de texto.
